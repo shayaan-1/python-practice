@@ -1,3 +1,9 @@
+# Create a function encrypt_caesar(text: str, shift: int) -> str that encrypts a message using the Caesar Cipher.
+
+# Only encrypt alphabetic characters (ignore digits, spaces, punctuation).
+# Maintain case (uppercase/lowercase).
+# The alphabet should wrap around (e.g., 'z' with shift 2 → 'b').
+# The shift can be positive or negative.
 
 def ceasar_cipher(str, shift):
     res = ''

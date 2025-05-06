@@ -1,3 +1,9 @@
+# You are building a temperature monitoring loop. Read temperatures from a list. For each temperature:
+
+# Skip any temperature below 20°C
+# Print valid temperatures (20°C to 80°C)
+# Immediately stop the loop (break) if temperature > 80°C (critical)
+
 def valid_temp(temperature):
     for temp in temperature:
         if temp < 20:
